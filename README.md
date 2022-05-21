@@ -1,2 +1,2 @@
-# Aprendendo-C-
+# Aprendendo-Csharp
 Exercícios em C# Microsoft Learn
