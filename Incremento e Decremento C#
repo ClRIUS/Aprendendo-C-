@@ -48,3 +48,23 @@ Console.WriteLine("Terceiro: " + valorr);//3 ao chamar a variável novamente ela
 Console.WriteLine("Quarto: " + (++valorr));// 4 como o incremento vem na frente da variável ela já é incrementada e exibida na mesma linha de código.
 
 //Referente a linha do quarto valor: Embora não seja estritamente necessário, adicionamos parênteses em torno da expressão (++value) para melhorar a legibilidade. Ver tantos operadores + próximos uns dos outros faz com que pareça que o código poderia ser mal compreendido por outros desenvolvedores.
+
+//Desafio
+/*Neste desafio, você escreverá um código que usará uma fórmula para converter uma temperatura de graus Fahrenheit para Celsius. Você imprimirá o resultado em uma mensagem formatada para o usuário.
+int fahrenheit = 94;
+Para converter temperaturas de graus Fahrenheit para Celsius, primeiro subtraia 32 e, em seguida, multiplique por cinco nonos (5/9).
+Por fim, você combinará as variáveis com cadeias de caracteres literais passadas para uma série de comandos Console.WriteLine() para formar a mensagem completa.
+
+Quando você tiver terminado, a mensagem deverá ser semelhante à seguinte saída:
+Saída: The temperature is 34.444444444444444444444444447 Celsius.
+*/
+int fahrenheit = 94;
+fahrenheit -= 32;
+decimal Celsius = (decimal)fahrenheit * (5m /9m);
+Console.WriteLine($"The temperature is {Celsius} Celsius");
+
+/*Solução possível:
+int fahrenheit = 94;
+decimal celsius = (fahrenheit - 32m) * (5m / 9m);
+Console.WriteLine("The temperature is " + celsius + " Celsius.");
+*/
