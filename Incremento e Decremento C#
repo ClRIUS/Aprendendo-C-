@@ -16,3 +16,5 @@ valuee++;//incremento de uma unidade fazendo o valor se tornar 2.
 Console.WriteLine("\n"+valuee);// \n usado para quebra de linha e separar de operações anteriores.
 valuee++;//incremento de uma unidade fazendo o valor se tornar 3.
 Console.WriteLine(valuee);
+valuee--;//decremento de uma unidade fazendo o valor se tornar 2 novamente.
+Console.WriteLine(valuee);
