@@ -61,7 +61,7 @@ Saída: The temperature is 34.444444444444444444444444447 Celsius.
 int fahrenheit = 94;
 fahrenheit -= 32;
 decimal Celsius = (decimal)fahrenheit * (5m /9m);
-Console.WriteLine($"The temperature is {Celsius} Celsius");
+Console.WriteLine($"The temperature is {Math.Round(Celsius,2)} Celsius");//Math.Round usado para diminuir casas decimais.
 
 /*Solução possível:
 int fahrenheit = 94;
