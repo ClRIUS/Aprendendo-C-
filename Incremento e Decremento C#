@@ -18,3 +18,33 @@ valuee++;//incremento de uma unidade fazendo o valor se tornar 3.
 Console.WriteLine(valuee);
 valuee--;//decremento de uma unidade fazendo o valor se tornar 2 novamente.
 Console.WriteLine(valuee);
+
+//Entendendo melhor incremento e decremento.
+int valor = 1;
+ valor = valor + 1;
+ Console.WriteLine("Primeiro incremento: " + valor);
+
+ valor +=1;
+ Console.WriteLine("Segundo incremento: " + valor);
+
+ valor++;
+ Console.WriteLine("Terceiro incremento: " + valor);
+
+ valor = valor - 1;
+ Console.WriteLine("Primeiro decremento: " + valor);
+
+ valor -= 1;
+ Console.WriteLine("Segundo decremento: " + valor);
+
+ valor--;
+ Console.WriteLine("Terceiro decremento: " + valor);
+
+//Incremento e Decremento antes e depois da variável:
+int valorr = 1;
+valorr++;
+Console.WriteLine("Primeiro: " + valorr);//2 o valor foi incremente antes de invocarmos a variável, sendo assim ela já imprime incrementada.
+Console.WriteLine("Segundo: " + valorr++);//2 o valor é repetido pois ela é incrementada no final, ou seja, só será alterado após essa linha de código.
+Console.WriteLine("Terceiro: " + valorr);//3 ao chamar a variável novamente ela já vem com o incremento da linha anterior.
+Console.WriteLine("Quarto: " + (++valorr));// 4 como o incremento vem na frente da variável ela já é incrementada e exibida na mesma linha de código.
+
+//Referente a linha do quarto valor: Embora não seja estritamente necessário, adicionamos parênteses em torno da expressão (++value) para melhorar a legibilidade. Ver tantos operadores + próximos uns dos outros faz com que pareça que o código poderia ser mal compreendido por outros desenvolvedores.
